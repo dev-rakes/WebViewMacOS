@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089E0FFA566391749085C99D /* Pods_TestWebMacos_TestWebMacosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C598F12A07195391011925 /* Pods_TestWebMacos_TestWebMacosUITests.framework */; };
+		764360B1CAF84ED7495582BC /* Pods_TestWebMacosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A266D6264E2D5E7AB88438E /* Pods_TestWebMacosTests.framework */; };
+		B01EEBF3A8151C9BD0B99359 /* Pods_TestWebMacos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DBE9AC643EAAD831713B8C /* Pods_TestWebMacos.framework */; };
+		DA437BED2A0501CA002F7E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA437BEC2A0501CA002F7E9D /* AppDelegate.swift */; };
+		DAD6C6502A039B9D0051E483 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = DAD6C64F2A039B9D0051E483 /* styles.css */; };
+		DAD6C6522A039BB30051E483 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = DAD6C6512A039BB30051E483 /* app.js */; };
+		DAF9C2A22A06112B00A66408 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9C2A12A06112B00A66408 /* Utils.swift */; };
+		DAF9C2A42A06129600A66408 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DAF9C2A32A06129600A66408 /* index.html */; };
+		DAF9C2E22A08D76800A66408 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9C2E12A08D76800A66408 /* Logger.swift */; };
+		DAF9C2E52A09089300A66408 /* Encodable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9C2E42A09089300A66408 /* Encodable+Ext.swift */; };
+		DAF9C2E72A0908AA00A66408 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9C2E62A0908AA00A66408 /* BaseResponse.swift */; };
+		DAFC5D0D29FC01CB00CDF322 /* TestWebMacosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC5D0C29FC01CB00CDF322 /* TestWebMacosApp.swift */; };
+		DAFC5D0F29FC01CB00CDF322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC5D0E29FC01CB00CDF322 /* ContentView.swift */; };
+		DAFC5D1129FC01D200CDF322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFC5D1029FC01D200CDF322 /* Assets.xcassets */; };
+		DAFC5D1429FC01D200CDF322 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFC5D1329FC01D200CDF322 /* Preview Assets.xcassets */; };
+		DAFC5D1F29FC01D400CDF322 /* TestWebMacosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC5D1E29FC01D400CDF322 /* TestWebMacosTests.swift */; };
+		DAFC5D2929FC01D400CDF322 /* TestWebMacosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC5D2829FC01D400CDF322 /* TestWebMacosUITests.swift */; };
+		DAFC5D2B29FC01D400CDF322 /* TestWebMacosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC5D2A29FC01D400CDF322 /* TestWebMacosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAFC5D1B29FC01D400CDF322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFC5D0129FC01CB00CDF322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFC5D0829FC01CB00CDF322;
+			remoteInfo = TestWebMacos;
+		};
+		DAFC5D2529FC01D400CDF322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFC5D0129FC01CB00CDF322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFC5D0829FC01CB00CDF322;
+			remoteInfo = TestWebMacos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27108F5762109876D8C0210F /* Pods-TestWebMacosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacosTests.debug.xcconfig"; path = "Target Support Files/Pods-TestWebMacosTests/Pods-TestWebMacosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CA553327C6099AFC315C575 /* Pods-TestWebMacos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacos.release.xcconfig"; path = "Target Support Files/Pods-TestWebMacos/Pods-TestWebMacos.release.xcconfig"; sourceTree = "<group>"; };
+		51F99C0964333DCB7949FF62 /* Pods-TestWebMacos-TestWebMacosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacos-TestWebMacosUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestWebMacos-TestWebMacosUITests/Pods-TestWebMacos-TestWebMacosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7328FA4DC74D9951A37BC6AB /* Pods-TestWebMacos-TestWebMacosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacos-TestWebMacosUITests.release.xcconfig"; path = "Target Support Files/Pods-TestWebMacos-TestWebMacosUITests/Pods-TestWebMacos-TestWebMacosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A266D6264E2D5E7AB88438E /* Pods_TestWebMacosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWebMacosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E3FE5BB679815615B5465D /* Pods-TestWebMacosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacosTests.release.xcconfig"; path = "Target Support Files/Pods-TestWebMacosTests/Pods-TestWebMacosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4C598F12A07195391011925 /* Pods_TestWebMacos_TestWebMacosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWebMacos_TestWebMacosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2DC7022A03C1EB0080263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA437BEC2A0501CA002F7E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD6C64F2A039B9D0051E483 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		DAD6C6512A039BB30051E483 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		DAF9C2A12A06112B00A66408 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DAF9C2A32A06129600A66408 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DAF9C2E12A08D76800A66408 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DAF9C2E42A09089300A66408 /* Encodable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Ext.swift"; sourceTree = "<group>"; };
+		DAF9C2E62A0908AA00A66408 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		DAFC5D0929FC01CB00CDF322 /* TestWebMacos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebMacos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC5D0C29FC01CB00CDF322 /* TestWebMacosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebMacosApp.swift; sourceTree = "<group>"; };
+		DAFC5D0E29FC01CB00CDF322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAFC5D1029FC01D200CDF322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFC5D1329FC01D200CDF322 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAFC5D1529FC01D200CDF322 /* TestWebMacos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestWebMacos.entitlements; sourceTree = "<group>"; };
+		DAFC5D1A29FC01D400CDF322 /* TestWebMacosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebMacosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC5D1E29FC01D400CDF322 /* TestWebMacosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebMacosTests.swift; sourceTree = "<group>"; };
+		DAFC5D2429FC01D400CDF322 /* TestWebMacosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebMacosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFC5D2829FC01D400CDF322 /* TestWebMacosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebMacosUITests.swift; sourceTree = "<group>"; };
+		DAFC5D2A29FC01D400CDF322 /* TestWebMacosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebMacosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8DBE9AC643EAAD831713B8C /* Pods_TestWebMacos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWebMacos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34BF8D5721AF8BCCCE5FCEB /* Pods-TestWebMacos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWebMacos.debug.xcconfig"; path = "Target Support Files/Pods-TestWebMacos/Pods-TestWebMacos.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFC5D0629FC01CB00CDF322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01EEBF3A8151C9BD0B99359 /* Pods_TestWebMacos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D1729FC01D400CDF322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764360B1CAF84ED7495582BC /* Pods_TestWebMacosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D2129FC01D400CDF322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089E0FFA566391749085C99D /* Pods_TestWebMacos_TestWebMacosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E1BFFB5A551DDA5B41D841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F34BF8D5721AF8BCCCE5FCEB /* Pods-TestWebMacos.debug.xcconfig */,
+				4CA553327C6099AFC315C575 /* Pods-TestWebMacos.release.xcconfig */,
+				51F99C0964333DCB7949FF62 /* Pods-TestWebMacos-TestWebMacosUITests.debug.xcconfig */,
+				7328FA4DC74D9951A37BC6AB /* Pods-TestWebMacos-TestWebMacosUITests.release.xcconfig */,
+				27108F5762109876D8C0210F /* Pods-TestWebMacosTests.debug.xcconfig */,
+				A5E3FE5BB679815615B5465D /* Pods-TestWebMacosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DB9863ABF4C6A2AB6CC8BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DBE9AC643EAAD831713B8C /* Pods_TestWebMacos.framework */,
+				C4C598F12A07195391011925 /* Pods_TestWebMacos_TestWebMacosUITests.framework */,
+				9A266D6264E2D5E7AB88438E /* Pods_TestWebMacosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD6C64E2A039B620051E483 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAF9C2A32A06129600A66408 /* index.html */,
+				DAD6C64F2A039B9D0051E483 /* styles.css */,
+				DAD6C6512A039BB30051E483 /* app.js */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		DAF9C2E02A08D74A00A66408 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAF9C2A12A06112B00A66408 /* Utils.swift */,
+				DAF9C2E12A08D76800A66408 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAF9C2E32A09086400A66408 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DAF9C2E42A09089300A66408 /* Encodable+Ext.swift */,
+				DAF9C2E62A0908AA00A66408 /* BaseResponse.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DAFC5D0029FC01CB00CDF322 = {
+			isa = PBXGroup;
+			children = (
+				DAFC5D0B29FC01CB00CDF322 /* TestWebMacos */,
+				DAFC5D1D29FC01D400CDF322 /* TestWebMacosTests */,
+				DAFC5D2729FC01D400CDF322 /* TestWebMacosUITests */,
+				DAFC5D0A29FC01CB00CDF322 /* Products */,
+				00E1BFFB5A551DDA5B41D841 /* Pods */,
+				8DB9863ABF4C6A2AB6CC8BA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFC5D0A29FC01CB00CDF322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFC5D0929FC01CB00CDF322 /* TestWebMacos.app */,
+				DAFC5D1A29FC01D400CDF322 /* TestWebMacosTests.xctest */,
+				DAFC5D2429FC01D400CDF322 /* TestWebMacosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFC5D0B29FC01CB00CDF322 /* TestWebMacos */ = {
+			isa = PBXGroup;
+			children = (
+				DAF9C2E32A09086400A66408 /* Data */,
+				DA437BEC2A0501CA002F7E9D /* AppDelegate.swift */,
+				DAFC5D1029FC01D200CDF322 /* Assets.xcassets */,
+				DAFC5D0E29FC01CB00CDF322 /* ContentView.swift */,
+				DA2DC7022A03C1EB0080263E /* Info.plist */,
+				DAFC5D1229FC01D200CDF322 /* Preview Content */,
+				DAD6C64E2A039B620051E483 /* resources */,
+				DAFC5D1529FC01D200CDF322 /* TestWebMacos.entitlements */,
+				DAFC5D0C29FC01CB00CDF322 /* TestWebMacosApp.swift */,
+				DAF9C2E02A08D74A00A66408 /* Utils */,
+			);
+			path = TestWebMacos;
+			sourceTree = "<group>";
+		};
+		DAFC5D1229FC01D200CDF322 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAFC5D1329FC01D200CDF322 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAFC5D1D29FC01D400CDF322 /* TestWebMacosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFC5D1E29FC01D400CDF322 /* TestWebMacosTests.swift */,
+			);
+			path = TestWebMacosTests;
+			sourceTree = "<group>";
+		};
+		DAFC5D2729FC01D400CDF322 /* TestWebMacosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFC5D2829FC01D400CDF322 /* TestWebMacosUITests.swift */,
+				DAFC5D2A29FC01D400CDF322 /* TestWebMacosUITestsLaunchTests.swift */,
+			);
+			path = TestWebMacosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFC5D0829FC01CB00CDF322 /* TestWebMacos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFC5D2E29FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacos" */;
+			buildPhases = (
+				24F9362BE705913459960191 /* [CP] Check Pods Manifest.lock */,
+				DAFC5D0529FC01CB00CDF322 /* Sources */,
+				DAFC5D0629FC01CB00CDF322 /* Frameworks */,
+				DAFC5D0729FC01CB00CDF322 /* Resources */,
+				3FA421B0E9578232CC172DA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWebMacos;
+			productName = TestWebMacos;
+			productReference = DAFC5D0929FC01CB00CDF322 /* TestWebMacos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFC5D1929FC01D400CDF322 /* TestWebMacosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFC5D3129FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacosTests" */;
+			buildPhases = (
+				D059A95FE934979DA88844EE /* [CP] Check Pods Manifest.lock */,
+				DAFC5D1629FC01D400CDF322 /* Sources */,
+				DAFC5D1729FC01D400CDF322 /* Frameworks */,
+				DAFC5D1829FC01D400CDF322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFC5D1C29FC01D400CDF322 /* PBXTargetDependency */,
+			);
+			name = TestWebMacosTests;
+			productName = TestWebMacosTests;
+			productReference = DAFC5D1A29FC01D400CDF322 /* TestWebMacosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAFC5D2329FC01D400CDF322 /* TestWebMacosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFC5D3429FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacosUITests" */;
+			buildPhases = (
+				D87BAEF0E9E200DE4FA40603 /* [CP] Check Pods Manifest.lock */,
+				DAFC5D2029FC01D400CDF322 /* Sources */,
+				DAFC5D2129FC01D400CDF322 /* Frameworks */,
+				DAFC5D2229FC01D400CDF322 /* Resources */,
+				C876DE579654B5F588C500F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFC5D2629FC01D400CDF322 /* PBXTargetDependency */,
+			);
+			name = TestWebMacosUITests;
+			productName = TestWebMacosUITests;
+			productReference = DAFC5D2429FC01D400CDF322 /* TestWebMacosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFC5D0129FC01CB00CDF322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DAFC5D0829FC01CB00CDF322 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DAFC5D1929FC01D400CDF322 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DAFC5D0829FC01CB00CDF322;
+					};
+					DAFC5D2329FC01D400CDF322 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DAFC5D0829FC01CB00CDF322;
+					};
+				};
+			};
+			buildConfigurationList = DAFC5D0429FC01CB00CDF322 /* Build configuration list for PBXProject "TestWebMacos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFC5D0029FC01CB00CDF322;
+			productRefGroup = DAFC5D0A29FC01CB00CDF322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFC5D0829FC01CB00CDF322 /* TestWebMacos */,
+				DAFC5D1929FC01D400CDF322 /* TestWebMacosTests */,
+				DAFC5D2329FC01D400CDF322 /* TestWebMacosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFC5D0729FC01CB00CDF322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF9C2A42A06129600A66408 /* index.html in Resources */,
+				DAD6C6502A039B9D0051E483 /* styles.css in Resources */,
+				DAFC5D1429FC01D200CDF322 /* Preview Assets.xcassets in Resources */,
+				DAD6C6522A039BB30051E483 /* app.js in Resources */,
+				DAFC5D1129FC01D200CDF322 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D1829FC01D400CDF322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D2229FC01D400CDF322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F9362BE705913459960191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWebMacos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA421B0E9578232CC172DA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos/Pods-TestWebMacos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos/Pods-TestWebMacos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos/Pods-TestWebMacos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C876DE579654B5F588C500F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos-TestWebMacosUITests/Pods-TestWebMacos-TestWebMacosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos-TestWebMacosUITests/Pods-TestWebMacos-TestWebMacosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWebMacos-TestWebMacosUITests/Pods-TestWebMacos-TestWebMacosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D059A95FE934979DA88844EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWebMacosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87BAEF0E9E200DE4FA40603 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWebMacos-TestWebMacosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFC5D0529FC01CB00CDF322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF9C2E22A08D76800A66408 /* Logger.swift in Sources */,
+				DA437BED2A0501CA002F7E9D /* AppDelegate.swift in Sources */,
+				DAF9C2A22A06112B00A66408 /* Utils.swift in Sources */,
+				DAF9C2E52A09089300A66408 /* Encodable+Ext.swift in Sources */,
+				DAF9C2E72A0908AA00A66408 /* BaseResponse.swift in Sources */,
+				DAFC5D0F29FC01CB00CDF322 /* ContentView.swift in Sources */,
+				DAFC5D0D29FC01CB00CDF322 /* TestWebMacosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D1629FC01D400CDF322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFC5D1F29FC01D400CDF322 /* TestWebMacosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFC5D2029FC01D400CDF322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFC5D2929FC01D400CDF322 /* TestWebMacosUITests.swift in Sources */,
+				DAFC5D2B29FC01D400CDF322 /* TestWebMacosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFC5D1C29FC01D400CDF322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFC5D0829FC01CB00CDF322 /* TestWebMacos */;
+			targetProxy = DAFC5D1B29FC01D400CDF322 /* PBXContainerItemProxy */;
+		};
+		DAFC5D2629FC01D400CDF322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFC5D0829FC01CB00CDF322 /* TestWebMacos */;
+			targetProxy = DAFC5D2529FC01D400CDF322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAFC5D2C29FC01D400CDF322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAFC5D2D29FC01D400CDF322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAFC5D2F29FC01D400CDF322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34BF8D5721AF8BCCCE5FCEB /* Pods-TestWebMacos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestWebMacos/TestWebMacos.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestWebMacos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWebMacos/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAFC5D3029FC01D400CDF322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA553327C6099AFC315C575 /* Pods-TestWebMacos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestWebMacos/TestWebMacos.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestWebMacos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWebMacos/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DAFC5D3229FC01D400CDF322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27108F5762109876D8C0210F /* Pods-TestWebMacosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWebMacos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestWebMacos";
+			};
+			name = Debug;
+		};
+		DAFC5D3329FC01D400CDF322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E3FE5BB679815615B5465D /* Pods-TestWebMacosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWebMacos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestWebMacos";
+			};
+			name = Release;
+		};
+		DAFC5D3529FC01D400CDF322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F99C0964333DCB7949FF62 /* Pods-TestWebMacos-TestWebMacosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestWebMacos;
+			};
+			name = Debug;
+		};
+		DAFC5D3629FC01D400CDF322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7328FA4DC74D9951A37BC6AB /* Pods-TestWebMacos-TestWebMacosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hb.TestWebMacosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestWebMacos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFC5D0429FC01CB00CDF322 /* Build configuration list for PBXProject "TestWebMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC5D2C29FC01D400CDF322 /* Debug */,
+				DAFC5D2D29FC01D400CDF322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFC5D2E29FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC5D2F29FC01D400CDF322 /* Debug */,
+				DAFC5D3029FC01D400CDF322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFC5D3129FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC5D3229FC01D400CDF322 /* Debug */,
+				DAFC5D3329FC01D400CDF322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFC5D3429FC01D400CDF322 /* Build configuration list for PBXNativeTarget "TestWebMacosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC5D3529FC01D400CDF322 /* Debug */,
+				DAFC5D3629FC01D400CDF322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAFC5D0129FC01CB00CDF322 /* Project object */;
+}
